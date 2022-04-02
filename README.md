@@ -1,10 +1,10 @@
 1) About
-# Implement a simple web app that allows browsing the Imgur gallery Consume the Imgur API:
+#Implement a simple web app that allows browsing the Imgur gallery Consume the Imgur API:
 https://api.imgur.com/
 Documentation:
 https://apidocs.imgur.com/
 
-# Imgur's API exposes the entire Imgur infrastructure via a standardized programmatic interface. Using Imgur's API, you can do just about anything you can do on imgur.com, while using your programming language of choice. The Imgur API is a RESTful API based on HTTP requests and JSON responses. Here We have used : React 18 with redux pattern in the Front end and Express.js in the backend. 
+#Imgur's API exposes the entire Imgur infrastructure via a standardized programmatic interface. Using Imgur's API, you can do just about anything you can do on imgur.com, while using your programming language of choice. The Imgur API is a RESTful API based on HTTP requests and JSON responses. Here We have used : React 18 with redux pattern in the Front end and Express.js in the backend. 
 
 2) Requirements
 #show gallery images in a grid
@@ -13,28 +13,19 @@ of thumbnails;
 • allow selecting the gallery section: hot, top, user;
 • allow specifying window and sort parameters;
 
-3) How to get started
+3) Setup Instructions
 
 i) Clone the repo.
 ii) Please go to the project folder and type 'npm install' in terminal to install all the dependencies.
-'npm run start-server' to start the backend server.
-iii)Once the backend is up , 'npm start' to start the Client app
-Start Backend server
-npm run start:server
-starts the node server.js on 5000
-
-iv)Start Client side in a separate terminal, Please go to the project folder and type npm start
-npm start
-Runs the app in the development mode.
-v)Open http://localhost:3000 to view it in the browser. This shiuld redirect the page to http://localhost:3000/gallery
-
-
-v) Set IMGUR client ID : https://api.imgur.com/oauth2/addclient
+iii) Next run, 'npm run start-server' to start the backend server.
+iii) This will start backend in port 5000
+iv)Next,Start Client side in a separate terminal, for that please go to the project folder and type npm start.
+v)Open http://localhost:3000 to view it in the browser. This should redirect the page to http://localhost:3000/gallery
+v) If required, Set IMGUR client ID : https://api.imgur.com/oauth2/addclient
 We have alreay Set imgur client ID here: /backend/constants/constants
 
 4) Available Scripts
 In the project directory, you can run:
-
 npm test
 Launches the test runner in the interactive watch mode.
 
