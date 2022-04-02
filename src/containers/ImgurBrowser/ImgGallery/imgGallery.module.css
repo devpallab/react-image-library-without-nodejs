@@ -76,7 +76,8 @@
     opacity: 0;
   }
   .gallery-grid div:after {
-    content: '\02194';
+    /*content: '\02194';*/
+    content: '';
     font-size: 80px;
     position: absolute;
     transform: translate3d(-50%, -50%, 0) rotate(-45deg);
