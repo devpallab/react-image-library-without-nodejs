@@ -17,10 +17,8 @@ of thumbnails;
 
 i) Clone the repo.
 ii) Please go to the project folder and type 'npm install' in terminal to install all the dependencies.
-iii) Next run, 'npm run start-server' to start the backend server.
-iii) This will start backend in port 5000
-iv)Next,Start Client side in a separate terminal, for that please go to the project folder and type npm start.
-v)Open http://localhost:3000 to view it in the browser. This should redirect the page to http://localhost:3000/gallery
+iii) Next run, 'npm start'.
+i)Open http://localhost:3000 to view it in the browser. This should redirect the page to http://localhost:3000/gallery
 v) If required, Set IMGUR client ID : https://api.imgur.com/oauth2/addclient
 We have alreay Set imgur client ID here: /backend/constants/constants
 
