@@ -7,7 +7,6 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
-    "express": "^4.17.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^7.2.6",
@@ -18,12 +17,11 @@
     "redux-thunk": "^2.4.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
+  "scripts": { 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start:server": "nodemon server.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +35,6 @@
       "not dead",
       "not op_mini all"
     ],
-    
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
